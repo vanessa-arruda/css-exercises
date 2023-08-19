@@ -1,0 +1,19 @@
+.odd-numbers {
+    background-color: pink;
+    font-family: Verdana, 'DejaVu Sans', sans-serif;
+}
+
+#element-two {
+    color: blue;
+    font-size: 36px;
+}
+
+.special-number {
+    font-size: 24px;
+}
+
+#element-four {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
