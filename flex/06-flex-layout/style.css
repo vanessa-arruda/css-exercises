@@ -4,18 +4,66 @@ body {
   height: 100vh;
   margin: 0;
   overflow: hidden;
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+/* Remove underline and standard link 'blue' color*/
+a {
+  text-decoration: none;
+  color: grey;
+}
+/* Remove bullet points from ul and add spaces*/
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 15px;
+}
+
+/* Add styles for top bar and footer*/
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+}
+/* Add style to center logo, search bar and buttons*/
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 100px;
+
+/* Add flex adjust for containers of top bars and footer links*/
+}
+.left-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-links {
+  display: flex;
+  display: space-between;
+}
+
+.footer {
+  background-color: #eee;
+  padding: 0.8em;
 }
 
 img {
   width: 600px;
 }
 
+/* Add padding*/
 button {
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 15px;
 }
 
 input {
